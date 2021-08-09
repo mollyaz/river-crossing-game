@@ -7,9 +7,6 @@ using namespace std;
 
 #include "river.h"
 
-/* You are pre-supplied with the functions below. Add your own 
-   function definitions to the end of this file. */
-
 /* internal helper function which allocates a dynamic 2D array */
 char **allocate_2D_array(int rows, int columns) {
   char **m = new (nothrow) char *[rows];
